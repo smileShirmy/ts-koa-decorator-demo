@@ -24,7 +24,7 @@
   },
   "compileOnSave": false,
   "include": [
-    "app/**/*",
+    "src/**/*",
     "configs/**/*",
     "**/*.ts",
     "**/*.tsx"
