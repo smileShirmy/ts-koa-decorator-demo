@@ -1,0 +1,17 @@
+{
+  "verbose": false,
+  "debug": false,
+  "exec": "ts-node -r tsconfig-paths/register ./app.ts",
+  "ignore": [
+    "node_modules",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts"
+  ],
+  "events": {
+    "restart": ""
+  },
+  "watch": ["./app", "./app.ts"],
+  "ext": "ts",
+  "inspect": true
+}
